@@ -19,6 +19,14 @@ const FormCapture = () => {
                         <span>Last Name</span>
                         <input type="text" name="lastname" id="lastname" />
                     </div>
+                    <div className="field">
+                        <span>Amarius Checkbox 1</span>
+                        <input type="checkbox" name="amarius-checkbox-1" id="amarius-checkbox-1" leadfield="cdi_allowtextmessages" contactfield="cdi_allowtextmessages" />
+                    </div>
+                    <div className="field">
+                        <span>Amarius Checkbox 2</span>
+                        <input type="checkbox" name="amarius-checkbox-2" id="amarius-checkbox-2" />
+                    </div>
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
