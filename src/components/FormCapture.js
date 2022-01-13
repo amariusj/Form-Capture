@@ -27,6 +27,7 @@ const FormCapture = () => {
                         <span>Amarius Checkbox 2</span>
                         <input type="checkbox" name="amarius-checkbox-2" id="amarius-checkbox-2" />
                     </div>
+                    <textarea rows="4" cols="50" name="Details of work">Enter text here...</textarea>
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
