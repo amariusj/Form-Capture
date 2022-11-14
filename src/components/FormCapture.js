@@ -23,6 +23,9 @@ const FormCapture = () => {
                         <span>Subscription test</span>
                         <input type="checkbox" name="subscription" id="subscription" leadfield="donotallowbulkemail" contactfield="donotallowbulkemail" />
                     </div>
+                    <div className="field">
+                        <input type="hidden" id="hiddenfield" name="hiddenfield" value="Amarius-Form-Capture" />
+                    </div>
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
