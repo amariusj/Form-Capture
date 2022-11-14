@@ -5,7 +5,7 @@ const FormCapture = () => {
         <div className="form-capture">
             <h1>Amarius Jones Test Form Capture</h1>
             <hr />
-            <form action="https://analytics.clickdimensions.com/forms/h/azwGgHQgrI0a4DFY7Tm6Mm" method="post">
+            <form action="https://analytics.clickdimensions.com/forms/h/aEsmqOhroDUSnxNhNmpM0Q" method="post">
                 <fieldset>
                     <div className="field">
                         <span>Email Address</span>
@@ -20,14 +20,9 @@ const FormCapture = () => {
                         <input type="text" name="lastname" id="lastname" />
                     </div>
                     <div className="field">
-                        <span>Amarius Checkbox 1</span>
-                        <input type="checkbox" name="amarius-checkbox-1" id="amarius-checkbox-1" leadfield="cdi_allowtextmessages" contactfield="cdi_allowtextmessages" />
+                        <span>Subscription test</span>
+                        <input type="checkbox" name="subscription" id="subscription" leadfield="donotallowbulkemail" contactfield="donotallowbulkemail" />
                     </div>
-                    <div className="field">
-                        <span>Amarius Checkbox 2</span>
-                        <input type="checkbox" name="amarius-checkbox-2" id="amarius-checkbox-2" />
-                    </div>
-                    <textarea rows="4" cols="50" name="Details of work">Enter text here...</textarea>
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
