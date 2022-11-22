@@ -13,11 +13,11 @@ const FormCapture = () => {
                     </div>
                     <div className="field">
                         <span>First Name</span>
-                        <input type="text" name="firstname" id="firstname" />
+                        <input type="text" name="first" id="firstname" />
                     </div>
                     <div className="field">
                         <span>Last Name</span>
-                        <input type="text" name="lastname" id="lastname" />
+                        <input type="text" name="last" id="lastname" />
                     </div>
                     <div className="field">
                         <span>Subscription test</span>
