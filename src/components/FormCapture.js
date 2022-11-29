@@ -24,10 +24,6 @@ const FormCapture = () => {
                         <input type="number" name="Zip/PostalCode" id="Zip/PostalCode" />
                     </div>
                     <div className="field">
-                        <span>Street</span>
-                        <input type="text" name="StreetAddress" id="StreetAddress" />
-                    </div>
-                    <div className="field">
                         <span>Impact Testimonial</span>
                         <input type="text" name="ImpactTestimonial" id="ImpactTestimonial" />
                     </div>
