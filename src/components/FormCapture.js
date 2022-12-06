@@ -73,6 +73,30 @@ const FormCapture = () => {
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
+            <hr />
+            <form action="https://analytics.clickdimensions.com/forms/h/aFuCahKzxT0CG2u9AJkpuh" method="post">
+                <fieldset>
+                    <div className="field">
+                        <span>Email Address</span>
+                        <input type="text" name="email-address" id="email-address" />
+                    </div>
+                    <div className="field">
+                        <span>First Name</span>
+                        <input type="text" name="first-name" id="first-name" />
+                    </div>
+                    <div className="field">
+                        <span>Last Name</span>
+                        <input type="text" name="last-name" id="last-name" />
+                    </div>
+                    <div className="field">
+                        <span>Yes</span>
+                        <input type="radio" value="true" name="require-transportation" id="require-transportation" />
+                        <span>Yes</span>
+                        <input type="radio" value="false" name="require-transportation" id="require-transportation" />
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
         </div>
     )
 }
