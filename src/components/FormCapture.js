@@ -51,6 +51,37 @@ const FormCapture = () => {
                     <button type="submit">Submit</button>
                 </fieldset>
             </form>
+            <hr />
+            <h1>Below Form Capture is for Ticket #320767</h1>
+            <form action="https://analytics.clickdimensions.com/forms/h/aaLuIcQzdEWPqmFyFocNZQ" method="post">
+                <fieldset>
+                    <div className="field">
+                        <span>Email Address</span>
+                        <input type="text" name="AACRM_Email" id="email-address" />
+                    </div>
+                    <div className="field">
+                        <span>First Name</span>
+                        <input type="text" name="AACRM_FirstName" id="first-name" />
+                    </div>
+                    <div className="field">
+                        <span>Last Name</span>
+                        <input type="text" name="AACRM_LastName" id="last-name" />
+                    </div>
+                    <div className="field">
+                        <span>Phone Number</span>
+                        <input type="number" name="AACRM_PhoneNumber" id="last-name" />
+                    </div>
+                    <div className="field">
+                        <span>Message</span>
+                        <textarea name="AACRM_Message" id="last-name" />
+                    </div>
+                    <div className="field">
+                        <span>Subscribe CASL</span>
+                        <input type="checkbox" name="AACRM_CASL_Option_Choice" id="AlumniNewsletter" leadfield="donotallowbulkemail" contactfield="donotallowbulkemail" />
+                    </div>
+                    <button type="submit">Submit</button>
+                </fieldset>
+            </form>
         </div>
     )
 }
