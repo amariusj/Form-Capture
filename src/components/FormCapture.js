@@ -27,6 +27,7 @@ const FormCapture = () => {
                 </fieldset>
             </form>
             <hr />
+            <h3>Click <a href="https://www.facebook.com/photo/?fbid=579857094175281&set=a.410044504489875">here</a> to access the facebook post.</h3>
         </div>
     )
 }
