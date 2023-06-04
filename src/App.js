@@ -9,6 +9,8 @@ function App() {
         <Switch>
           <Route path="/" exact component={FormCapture} />
           <Route path="/join" component={CustomForm} />
+          <Route path="/about" component={CustomForm} />
+          <Route path="/contact" component={CustomForm} />
         </Switch>
       </div>
     </Router>
