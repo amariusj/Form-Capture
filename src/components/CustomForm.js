@@ -35,6 +35,26 @@ const CustomForm = () => {
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
             <hr />
+            <Form action="https://analytics.clickdimensions.com/forms/h/aoKjj2zyC3key7yZHs4uuE" method="post">
+                <Form.Group className="mb-3" controlId="FirstName">
+                    <Form.Label>First Name</Form.Label>
+                    <Form.Control type="text" placeholder="John" name="FirstName" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="LastName">
+                    <Form.Label>Last Name</Form.Label>
+                    <Form.Control type="text" placeholder="Doe" name="LastName" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="Email">
+                    <Form.Label>Email Address</Form.Label>
+                    <Form.Control type="text" placeholder="johndoe@example.com" name="Email" />
+                    <Form.Text className="text-muted">
+                        We'll never share your email with anyone else.
+                    </Form.Text>
+                </Form.Group>
+                
+                <Button variant="primary" type="submit">Submit</Button>
+            </Form>
+            <hr />
         </div>
     )
 }
