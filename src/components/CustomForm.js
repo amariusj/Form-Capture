@@ -1,36 +1,39 @@
 import React from 'react'
+import Button from 'react-bootstrap/Button'
+import Form from 'react-bootstrap/Form'
 
 const CustomForm = () => {
     return(
         <div className="form-capture">
-            <h1>Convergia Inc ticket #328892 Form Capture</h1>
+            <h1>Elementor Form Capture for Ticket #336903</h1>
             <hr />
-            <form action="https://analytics-ca.clickdimensions.com/forms/h/apNahnbzUWU6sXhOwt0Ji9" method="post">
-                <fieldset>
-                    <div className="field">
-                        <span>Products</span>
-                        <input type="text" name="FC_Products" id="FC_Products" />
-                    </div>
-                    <div className="field">
-                        <span>Message</span>
-                        <textarea id="FC_Message" name="FC_Message" rows="4" cols="50" />
-                    </div>
-                    <div className="field">
-                        <span>First Name</span>
-                        <input type="text" name="FC_FirstName" id="FC_FirstName" />
-                    </div>
-                    <div className="field">
-                        <span>Last Name</span>
-                        <input type="text" name="FC_LastName" id="FC_LastName" />
-                    </div>
-                    <div className="field">
-                        <span>Email</span>
-                        <input type="email" name="FC_Email" id="FC_Email" />
-                    </div>
-                    
-                    <button type="submit">Submit</button>
-                </fieldset>
-            </form>
+            <Form action="https://analytics.clickdimensions.com/forms/h/apZjBWCEJH0OgLkfZ8XWPw" method="post">
+                <Form.Group className="mb-3" controlId="firstname">
+                    <Form.Label>First Name</Form.Label>
+                    <Form.Control type="text" placeholder="John" name="firstname" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="lastname">
+                    <Form.Label>Last Name</Form.Label>
+                    <Form.Control type="text" placeholder="Doe" name="lastname" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="emailAddress">
+                    <Form.Label>Email Address</Form.Label>
+                    <Form.Control type="text" placeholder="johndoe@example.com" name="emailAddress" />
+                    <Form.Text className="text-muted">
+                        We'll never share your email with anyone else.
+                    </Form.Text>
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="phoneNumber">
+                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Control type="text" placeholder="+1 (123) 456-7890" name="phoneNumber" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="text_area">
+                    <Form.Label>Any comments?</Form.Label>
+                    <Form.Control as="textarea" placeholder="Type your thoughts here..." rows={3} name="text_area" />
+                </Form.Group>
+                
+                <Button variant="primary" type="submit">Submit</Button>
+            </Form>
             <hr />
         </div>
     )
