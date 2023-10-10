@@ -29,6 +29,10 @@ const FormCapture = () => {
                     <Form.Label>Any comments?</Form.Label>
                     <Form.Control as="textarea" placeholder="Type your thoughts here..." rows={3} name="textareatest" />
                 </Form.Group>
+
+                {['amarius-checkbox-1', 'amarius-checkbox-2'].map( (checkbox) => (
+                    <Form.Check key={checkbox} type="checkbox" id={checkbox} name={checkbox} label={`${checkbox}`} className="mb-3" />
+                ) )}
                 
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
