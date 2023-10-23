@@ -27,19 +27,19 @@ const CustomForm = () => {
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
             <hr />
-            <h1>Amarius Jones Form Capture On-Prem 8.2.x environment</h1>
-            <Form action="https://analytics.clickdimensions.com/forms/h/aoKjj2zyC3key7yZHs4uuE" method="post">
-                <Form.Group className="mb-3" controlId="FirstName">
+            <h1>Amarius Jones Form Capture CA Opt Out Environment</h1>
+            <Form action="https://analytics-ca.clickdimensions.com/forms/h/a7Qddz9e0hkC4cSsXH9sxQ" method="post">
+                <Form.Group className="mb-3" controlId="firstname">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="John" name="FirstName" />
+                    <Form.Control type="text" placeholder="John" name="firstname" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="LastName">
+                <Form.Group className="mb-3" controlId="lastname">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Doe" name="LastName" />
+                    <Form.Control type="text" placeholder="Doe" name="lastname" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="Email">
+                <Form.Group className="mb-3" controlId="email">
                     <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="text" placeholder="johndoe@example.com" name="Email" />
+                    <Form.Control type="text" placeholder="johndoe@example.com" name="email" />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
