@@ -5,31 +5,27 @@ import Form from 'react-bootstrap/Form'
 const CustomForm = () => {
     return(
         <div className="form-capture">
-            <h1>Elementor Form Capture for Ticket #336903</h1>
+            <h1>Elementor Form Capture for Ticket #338271</h1>
             <hr />
-            <Form action="https://analytics.clickdimensions.com/forms/h/apZjBWCEJH0OgLkfZ8XWPw" method="post">
-                <Form.Group className="mb-3" controlId="firstname">
+            <Form action="https://analytics-ca.clickdimensions.com/forms/h/aszGebAH2OEmSJ3BCEA07d" method="post">
+                <Form.Group className="mb-3" controlId="first_name">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="John" name="firstname" />
+                    <Form.Control type="text" placeholder="John" name="first_name" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="lastname">
+                <Form.Group className="mb-3" controlId="last_name">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Doe" name="lastname" />
+                    <Form.Control type="text" placeholder="Doe" name="last_name" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="emailAddress">
+                <Form.Group className="mb-3" controlId="Email Address">
                     <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="text" placeholder="johndoe@example.com" name="emailAddress" />
+                    <Form.Control type="text" placeholder="johndoe@example.com" name="Email Address" />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="phoneNumber">
-                    <Form.Label>Phone Number</Form.Label>
-                    <Form.Control type="text" placeholder="+1 (123) 456-7890" name="phoneNumber" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="text_area">
-                    <Form.Label>Any comments?</Form.Label>
-                    <Form.Control as="textarea" placeholder="Type your thoughts here..." rows={3} name="text_area" />
+                <Form.Group className="mb-3" controlId="Country">
+                    <Form.Label>Country</Form.Label>
+                    <Form.Control type="text" placeholder="United States of America" name="Country" />
                 </Form.Group>
                 
                 <Button variant="primary" type="submit">Submit</Button>
