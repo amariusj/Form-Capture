@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form'
 const CustomForm = () => {
     return(
         <div className="form-capture">
-            <h1>Elementor Form Capture for Ticket #338271</h1>
+            <h1>Form Capture for Ticket #338271</h1>
             <hr />
             <Form action="https://analytics-ca.clickdimensions.com/forms/h/aszGebAH2OEmSJ3BCEA07d" method="post">
                 <Form.Group className="mb-3" controlId="first_name">
