@@ -28,7 +28,7 @@ const CustomForm = () => {
             </Form>
             <hr />
             <h1>Ticket #340700: Area X.o - Mailing List Sign Up</h1>
-            <Form action="https://analytics-ca.clickdimensions.com/forms/h/ahhhvJBXydHEyYTdj3rTw" method="post">
+            <Form action="https://analytics-ca.clickdimensions.com/forms/h/ahhvJBXydHEyYTdj3rTw" method="post">
                 <Form.Group className="mb-3" controlId="first-name">
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type="text" placeholder="John" name="first-name" />
