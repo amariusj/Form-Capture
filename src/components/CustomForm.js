@@ -5,20 +5,20 @@ import Form from 'react-bootstrap/Form'
 const CustomForm = () => {
     return(
         <div className="form-capture">
-            <h1>Form Capture for Ticket #338271</h1>
+            <h1>Ticket #340700: CBY Mailing List Sign Up</h1>
             <hr />
-            <Form action="https://analytics-ca.clickdimensions.com/forms/h/a6MXkgx4Nv0iRrZKJwHgHK" method="post">
-                <Form.Group className="mb-3" controlId="firstnametest">
+            <Form action="https://analytics-ca.clickdimensions.com/forms/h/au94ZpP8jEq2D7hxusDupA" method="post">
+                <Form.Group className="mb-3" controlId="first-name">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="John" name="firstnametest" />
+                    <Form.Control type="text" placeholder="John" name="first-name" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="testlastname">
+                <Form.Group className="mb-3" controlId="last-name">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Doe" name="testlastname" />
+                    <Form.Control type="text" placeholder="Doe" name="last-name" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="testemail">
+                <Form.Group className="mb-3" controlId="emailaddress1">
                     <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="text" placeholder="johndoe@example.com" name="testemail" />
+                    <Form.Control type="text" placeholder="johndoe@example.com" name="emailaddress1" />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
@@ -27,27 +27,29 @@ const CustomForm = () => {
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
             <hr />
-            <h1>Amarius Jones Form Capture CA Opt Out Environment</h1>
-            <Form action="https://analytics-ca.clickdimensions.com/forms/h/a7Qddz9e0hkC4cSsXH9sxQ" method="post">
-                <Form.Group className="mb-3" controlId="firstname">
+            <h1>Ticket #340700: Area X.o - Mailing List Sign Up</h1>
+            <Form action="https://analytics-ca.clickdimensions.com/forms/h/ahhhvJBXydHEyYTdj3rTw" method="post">
+                <Form.Group className="mb-3" controlId="first-name">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="John" name="firstname" />
+                    <Form.Control type="text" placeholder="John" name="first-name" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="lastname">
+                <Form.Group className="mb-3" controlId="last-name">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Doe" name="lastname" />
+                    <Form.Control type="text" placeholder="Doe" name="last-name" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="email">
+                <Form.Group className="mb-3" controlId="emailaddress1">
                     <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="text" placeholder="johndoe@example.com" name="email" />
+                    <Form.Control type="text" placeholder="johndoe@example.com" name="emailaddress1" />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>
+                <Form.Group className="mb-3 pb-2" controlId="io_emailconsent">
+                    <Form.Check type="checkbox" label="Email consent" name="io_emailconsent" />
+                </Form.Group>
                 
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
-            <hr />
         </div>
     )
 }

@@ -34,10 +34,8 @@ const FormCapture = () => {
                     <Form.Check key={checkbox} type="checkbox" id={checkbox} name={checkbox} label={`${checkbox}`} className="mb-3" />
                 ) )}
                 
-                <Button variant="primary" type="submit">Submit</Button>
+                <Button variant="primary" type="submit" className="mt-2" >Submit</Button>
             </Form>
-            <hr />
-            <h3>Click <a href="https://www.facebook.com/photo/?fbid=579857094175281&set=a.410044504489875">here</a> to access the facebook post.</h3>
         </div>
     )
 }
