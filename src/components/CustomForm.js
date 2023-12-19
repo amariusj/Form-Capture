@@ -28,6 +28,7 @@ const CustomForm = () => {
             </Form>
             <hr />
             <h1>Ticket #340700: Area X.o - Mailing List Sign Up</h1>
+            <hr />
             <Form action="https://analytics-ca.clickdimensions.com/forms/h/ahhvJBXydHEyYTdj3rTw" method="post">
                 <Form.Group className="mb-3" controlId="first-name">
                     <Form.Label>First Name</Form.Label>
@@ -52,6 +53,7 @@ const CustomForm = () => {
             </Form>
             <hr />
             <h1>Ticket #340737: Website Contact Us</h1>
+            <hr />
             <Form action="https://analytics.clickdimensions.com/forms/h/ame9CgwV0fEWPH5CGAtTgT" method="post">
 
                 <Form.Group className="mb-3" controlId="firstname">
@@ -103,6 +105,38 @@ const CustomForm = () => {
 
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
+
+            <hr />
+            <h1>Ticket #340737: Test Form Capture</h1>
+            <hr />
+            <Form action="https://analytics.clickdimensions.com/forms/h/aRKo1E5ltNk6EMPzZgyA" method="post">
+
+                <Form.Group className="mb-3" controlId="firstname">
+                    <Form.Label>First Name</Form.Label>
+                    <Form.Control required={true} type="text" placeholder="John" name="firstname" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="lastname">
+                    <Form.Label>Last Name</Form.Label>
+                    <Form.Control required={true} type="text" placeholder="Doe" name="lastname" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="emailaddress1">
+                    <Form.Label>Email Address</Form.Label>
+                    <Form.Control required={true} type="text" placeholder="johndoe@example.com" name="emailaddress1" />
+                    <Form.Text className="text-muted">
+                        We'll never share your email with anyone else.
+                    </Form.Text>
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="telephone1">
+                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Control type="tel" placeholder="(123) 456-7890" name="telephone1" />
+                </Form.Group>
+
+                <Button variant="primary" type="submit">Submit</Button>
+            </Form>
+
         </div>
     )
 }
