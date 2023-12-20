@@ -120,6 +120,13 @@ const CustomForm = () => {
                     <option value="option 3">option 3</option>
                 </Form.Select>
 
+                <Form.Select className="mb-3" controlId="amarius-regular-select" name="amarius-regular-select">
+                    <option>Regular Select</option>
+                    <option value="option 1">option 1</option>
+                    <option value="option 2">option 2</option>
+                    <option value="option 3">option 3</option>
+                </Form.Select>
+
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
 
