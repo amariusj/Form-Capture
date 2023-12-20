@@ -113,7 +113,7 @@ const CustomForm = () => {
                     </Form.Text>
                 </Form.Group>
 
-                <Form.Select className="mb-3" controlId="amarius-multiselect" name="amarius-multiselect">
+                <Form.Select multiple className="mb-3" controlId="amarius-multiselect" name="amarius-multiselect">
                     <option>Multi-Select</option>
                     <option value="option 1">option 1</option>
                     <option value="option 2">option 2</option>
