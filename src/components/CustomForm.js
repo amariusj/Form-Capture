@@ -5,53 +5,7 @@ import Form from 'react-bootstrap/Form'
 const CustomForm = () => {
     return(
         <div className="form-capture">
-            <h1>Ticket #340700: CBY Mailing List Sign Up</h1>
-            <hr />
-            <Form action="https://analytics-ca.clickdimensions.com/forms/h/au94ZpP8jEq2D7hxusDupA" method="post">
-                <Form.Group className="mb-3" controlId="first-name">
-                    <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="John" name="first-name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="last-name">
-                    <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Doe" name="last-name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="emailaddress1">
-                    <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="text" placeholder="johndoe@example.com" name="emailaddress1" />
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
-                </Form.Group>
-                
-                <Button variant="primary" type="submit">Submit</Button>
-            </Form>
-            <hr />
-            <h1>Ticket #340700: Area X.o - Mailing List Sign Up</h1>
-            <hr />
-            <Form action="https://analytics-ca.clickdimensions.com/forms/h/ahhvJBXydHEyYTdj3rTw" method="post">
-                <Form.Group className="mb-3" controlId="first-name">
-                    <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="John" name="first-name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="last-name">
-                    <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Doe" name="last-name" />
-                </Form.Group>
-                <Form.Group className="mb-3" controlId="emailaddress1">
-                    <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="text" placeholder="johndoe@example.com" name="emailaddress1" />
-                    <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
-                    </Form.Text>
-                </Form.Group>
-                <Form.Group className="mb-3 pb-2" controlId="io_emailconsent">
-                    <Form.Check type="checkbox" label="Email consent" name="io_emailconsent" />
-                </Form.Group>
-                
-                <Button variant="primary" type="submit">Submit</Button>
-            </Form>
-            <hr />
+            
             <h1>Ticket #340737: Website Contact Us</h1>
             <hr />
             <Form action="https://analytics.clickdimensions.com/forms/h/ame9CgwV0fEWPH5CGAtTgT" method="post">
@@ -133,6 +87,38 @@ const CustomForm = () => {
                     <Form.Label>Phone Number</Form.Label>
                     <Form.Control type="tel" placeholder="(123) 456-7890" name="telephone1" />
                 </Form.Group>
+
+                <Button variant="primary" type="submit">Submit</Button>
+            </Form>
+
+            <h1>Ticket #340215: Test Form Capture</h1>
+            <hr />
+            <Form action="https://analytics.clickdimensions.com/forms/h/aBOI8RC3yaESB0gSHDKdDK" method="post">
+
+                <Form.Group className="mb-3" controlId="firstname">
+                    <Form.Label>First Name</Form.Label>
+                    <Form.Control required={true} type="text" placeholder="John" name="firstname" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="lastname">
+                    <Form.Label>Last Name</Form.Label>
+                    <Form.Control required={true} type="text" placeholder="Doe" name="lastname" />
+                </Form.Group>
+
+                <Form.Group className="mb-3" controlId="emailaddress1">
+                    <Form.Label>Email Address</Form.Label>
+                    <Form.Control required={true} type="text" placeholder="johndoe@example.com" name="emailaddress1" />
+                    <Form.Text className="text-muted">
+                        We'll never share your email with anyone else.
+                    </Form.Text>
+                </Form.Group>
+
+                <Form.Select multiple className="mb-3" controlId="amarius-multiselect" name="amarius-multiselect">
+                    <option>Multi-Select</option>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                    <option>option 3</option>
+                </Form.Select>
 
                 <Button variant="primary" type="submit">Submit</Button>
             </Form>
