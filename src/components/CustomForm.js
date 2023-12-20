@@ -115,9 +115,9 @@ const CustomForm = () => {
 
                 <Form.Select multiple className="mb-3" controlId="amarius-multiselect" name="amarius-multiselect">
                     <option>Multi-Select</option>
-                    <option>option 1</option>
-                    <option>option 2</option>
-                    <option>option 3</option>
+                    <option value="option 1">option 1</option>
+                    <option value="option 2">option 2</option>
+                    <option value="option 3">option 3</option>
                 </Form.Select>
 
                 <Button variant="primary" type="submit">Submit</Button>
