@@ -6,36 +6,41 @@ const CustomForm = () => {
     return(
         <div className="form-capture">
             
-            <h1>Ticket #342288: OBHG news email alert subscription (Sign Up For Our Blog)</h1>
+            <h1>Ticket #343226: Contact Us</h1>
             <hr />
-            <Form action="https://analytics.clickdimensions.com/forms/h/a5R8zjpyqhUGeGsur5kHAA" method="post">
+            <Form action="https://analytics.clickdimensions.com/forms/h/ax8tveSxNEk2D6vYr94mYf" method="post">
 
-                <Form.Group className="mb-3" controlId="Firstname">
+                <Form.Group className="mb-3" controlId="First Name">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control required={true} type="text" placeholder="John" name="Firstname" />
+                    <Form.Control required={true} type="text" placeholder="John" name="First Name" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="Lastname">
+                <Form.Group className="mb-3" controlId="Last Name">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control required={true} type="text" placeholder="Doe" name="Lastname" />
+                    <Form.Control required={true} type="text" placeholder="Doe" name="Last Name" />
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="Emailaddress">
+                <Form.Group className="mb-3" controlId="Email">
                     <Form.Label>Email Address</Form.Label>
-                    <Form.Control required={true} type="text" placeholder="johndoe@example.com" name="Emailaddress" />
+                    <Form.Control required={true} type="text" placeholder="johndoe@example.com" name="Email" />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>
 
-                <Form.Group className="mb-3" controlId="Company_name">
+                <Form.Group className="mb-3" controlId="Company">
                     <Form.Label>Company</Form.Label>
-                    <Form.Control required={true} type="text" placeholder="ClickDimensions" name="Company_name" />
+                    <Form.Control required={true} type="text" placeholder="ClickDimensions" name="Company" />
                 </Form.Group>
 
-                <Form.Group controlId="Comments" className="mb-3">
-                    <Form.Label>Comments</Form.Label>
-                    <Form.Control type="textarea" required={true} name="Comments" placeholder='Add some notes...' />
+                <Form.Group className="mb-3" controlId="Phone">
+                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Control required={true} type="text" placeholder="ClickDimensions" name="Phone" />
+                </Form.Group>
+
+                <Form.Group controlId="Project Needs" className="mb-3">
+                    <Form.Label>Project Needs</Form.Label>
+                    <Form.Control type="textarea" required={true} name="Project Needs" placeholder='Add some notes...' />
                 </Form.Group>
 
                 <Button variant="primary" type="submit">Submit</Button>
