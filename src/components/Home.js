@@ -37,7 +37,7 @@ const Home = () => {
                 <Form.Select size="md" name='amarius-list-1' id="amarius-list-1">
                     <option>Choose yes or no</option>
                     <option value="on">Yes</option>
-                    <option value="off">Yes</option>
+                    <option value="off">No</option>
                 </Form.Select>
                 
                 <Button variant="primary" type="submit" className="mt-2" >Submit</Button>
