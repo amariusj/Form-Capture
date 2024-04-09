@@ -25,9 +25,9 @@ export default function CustomerForms() {
                         We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="txtTitle">
+                <Form.Group className="mb-3" controlId="txtJobTitle">
                     <Form.Label>Job Title</Form.Label>
-                    <Form.Control type="text" placeholder="Current position" name="txtTitle" />
+                    <Form.Control type="text" placeholder="Current position" name="txtJobTitle" />
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="txtCompanyName">
                     <Form.Label>Company Name</Form.Label>
@@ -43,7 +43,7 @@ export default function CustomerForms() {
                 <Form.Select size="md" name='AI_consultation' id="AI_consultation">
                     <option>Choose whether or not to speak with a Gallagher representative</option>
                     <option value="on">Yes</option>
-                    <option value="off">Yes</option>
+                    <option value="off">No</option>
                 </Form.Select>
                 
                 <Button variant="primary" type="submit" className="mt-2" >Submit</Button>
