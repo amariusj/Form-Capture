@@ -37,9 +37,7 @@ export default function CustomerForms() {
                     <Form.Label>My question about AI and HR</Form.Label>
                     <Form.Control as="textarea" placeholder="Type your message here..." rows={3} name="question_AIHR" />
                 </Form.Group>
-
-                <Form.Check  type="checkbox" id="AI_consultation" name="AI_consultation" label="Check to speak with a Gallagher representative" className="mb-3" />
-
+                
                 <Form.Select size="md" name='AI_consultation' id="AI_consultation">
                     <option>Choose whether or not to speak with a Gallagher representative</option>
                     <option value="on">Yes</option>
