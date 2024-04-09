@@ -33,6 +33,12 @@ const Home = () => {
                 {['amarius-checkbox-1', 'amarius-checkbox-2'].map( (checkbox) => (
                     <Form.Check key={checkbox} type="checkbox" id={checkbox} name={checkbox} label={`${checkbox}`} className="mb-3" />
                 ) )}
+
+                <Form.Select size="md" name='amarius-list-1' id="amarius-list-1">
+                    <option>Choose yes or no</option>
+                    <option value="on">Yes</option>
+                    <option value="off">Yes</option>
+                </Form.Select>
                 
                 <Button variant="primary" type="submit" className="mt-2" >Submit</Button>
             </Form>
