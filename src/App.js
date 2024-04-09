@@ -8,6 +8,7 @@ import USForm from './components/forms/USForm';
 import EUForm from './components/forms/EUForm';
 import AUForm from './components/forms/AUForm';
 import CAForm from './components/forms/CAForm';
+import CustomerForms from './components/forms/CustomerForms';
  
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/euform" component={EUForm} />
           <Route path="/auform" component={AUForm} />
           <Route path="/caform" component={CAForm} />
+          <Route path="/customerforms" component={CustomerForms} />
         </Switch>
       </div>
     </Router>
