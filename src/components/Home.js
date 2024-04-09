@@ -9,7 +9,7 @@ const Home = () => {
         <div className="form-capture">
             <h1>Amarius Jones Test Form Capture</h1>
             <hr />
-            <Form action="https://analytics.clickdimensions.com/forms/h/azwGgHQgrI0a4DFY7Tm6Mm" method="post">
+            <Form action="https://analytics.clickdimensions.com/forms/h/atFFlqwOh0keMQX6gvJ5RK" method="post">
                 <Form.Group className="mb-3" controlId="firstname">
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type="text" placeholder="John" name="firstname" required />
