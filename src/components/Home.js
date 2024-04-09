@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 
 
-const FormCapture = () => {
+const Home = () => {
 
     return(
         <div className="form-capture">
@@ -40,4 +40,4 @@ const FormCapture = () => {
     )
 }
 
-export default FormCapture
+export default Home

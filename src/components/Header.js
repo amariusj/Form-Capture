@@ -15,7 +15,10 @@ const Header = () => {
                 <Navbar.Collapse id="menu">
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/custom">Customer Form Captures</Nav.Link>
+                        <Nav.Link as={Link} to="/usform">US Form</Nav.Link>
+                        <Nav.Link as={Link} to="/euform">EU Form</Nav.Link>
+                        <Nav.Link as={Link} to="/auform">AU Form</Nav.Link>
+                        <Nav.Link as={Link} to="/caform">CA Form</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
