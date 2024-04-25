@@ -9,7 +9,7 @@ export default function CustomerForms() {
         <div className="form-capture">
             <h1>Ticket #347129 - Home Journey</h1>
             <hr />
-            <Form action="https://analytics.clickdimensions.com/forms/h/aIi81Vlo3R0uKNO7yMbbIY" method="post">
+            <Form action="https://analytics.clickdimensions.com/forms/h/ali81VIo3R0uKNO7yMbblY" method="post">
                 <Form.Group className="mb-3" controlId="firstname">
                     <Form.Label>First Name</Form.Label>
                     <Form.Control type="text" placeholder="John" name="firstname" required />
