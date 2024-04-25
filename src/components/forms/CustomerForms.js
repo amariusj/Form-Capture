@@ -7,42 +7,49 @@ export default function CustomerForms() {
   return (
     <div>
         <div className="form-capture">
-            <h1>2024: AI and HR Landing Page</h1>
+            <h1>Ticket #347129 - Home Journey</h1>
             <hr />
-            <Form action="https://analytics.clickdimensions.com/forms/h/aoLyaCnXQ6Uej2G6puvd7k" method="post">
-                <Form.Group className="mb-3" controlId="txtFirstName">
+            <Form action="https://analytics.clickdimensions.com/forms/h/aIi81Vlo3R0uKNO7yMbbIY" method="post">
+                <Form.Group className="mb-3" controlId="firstname">
                     <Form.Label>First Name</Form.Label>
-                    <Form.Control type="text" placeholder="John" name="txtFirstName" required />
+                    <Form.Control type="text" placeholder="John" name="firstname" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="txtLastName">
+                <Form.Group className="mb-3" controlId="lastname">
                     <Form.Label>Last Name</Form.Label>
-                    <Form.Control type="text" placeholder="Doe" name="txtLastName" required />
+                    <Form.Control type="text" placeholder="Doe" name="lastname" required />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="txtEmailAddress">
+                <Form.Group className="mb-3" controlId="email">
                     <Form.Label>Email Address</Form.Label>
-                    <Form.Control type="text" placeholder="johndoe@example.com" name="txtEmailAddress" required />
+                    <Form.Control type="text" placeholder="johndoe@example.com" name="email" required />
                     <Form.Text className="text-muted">
                         We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="txtJobTitle">
-                    <Form.Label>Job Title</Form.Label>
-                    <Form.Control type="text" placeholder="Current position" name="txtJobTitle" />
+                <Form.Group className="mb-3" controlId="phone">
+                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Control type="tel" placeholder="+1 USA" name="phone" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="txtCompanyName">
+                <Form.Group className="mb-3" controlId="company">
                     <Form.Label>Company Name</Form.Label>
-                    <Form.Control type="text" placeholder="ClickDimensions" name="txtCompanyName" />
+                    <Form.Control type="text" placeholder="Ex: ClickDimensions" name="company" />
                 </Form.Group>
-                <Form.Group className="mb-3" controlId="question_AIHR">
-                    <Form.Label>My question about AI and HR</Form.Label>
-                    <Form.Control as="textarea" placeholder="Type your message here..." rows={3} name="question_AIHR" />
+                <Form.Group className="mb-3" controlId="StreetAddress">
+                    <Form.Label>Street Address</Form.Label>
+                    <Form.Control type="text" placeholder="123 Rainbow Rd" name="StreetAddress" />
                 </Form.Group>
-                
-                <Form.Select size="md" name='AI_consultation' id="AI_consultation">
-                    <option>Choose whether or not to speak with a Gallagher representative</option>
-                    <option value="on">Yes</option>
-                    <option value="off">No</option>
-                </Form.Select>
+                <Form.Group className="mb-3" controlId="city">
+                    <Form.Label>City</Form.Label>
+                    <Form.Control type="text" placeholder="Atlanta" name="city" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="state">
+                    <Form.Label>State</Form.Label>
+                    <Form.Control type="text" placeholder="GA" name="state" />
+                </Form.Group>
+                <Form.Group className="mb-3" controlId="ZipCode">
+                    <Form.Label>Zip Code</Form.Label>
+                    <Form.Control type="text" placeholder="30342" name="ZipCode" />
+                </Form.Group>
+
                 
                 <Button variant="primary" type="submit" className="mt-2" >Submit</Button>
             </Form>
