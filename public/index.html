@@ -14,5 +14,14 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>   
+    <script type="text/javascript" src="https://analytics.clickdimensions.com/ts.js" > </script>
+
+    <script type="text/javascript">
+      var cdAnalytics = new clickdimensions.Analytics('analytics.clickdimensions.com');
+      cdAnalytics.setAccountKey('ajvPP5rJUyRL8vBldFPmA');
+      cdAnalytics.setDomain('clickdimensions.com');
+      cdAnalytics.setScore(typeof(cdScore) == "undefined" ? 0 : (cdScore == 0 ? null : cdScore));
+      cdAnalytics.trackPage();
+    </script>
   </body>
 </html>
