@@ -17,7 +17,7 @@ export default function GtmTest() {
 
         const body = document.getElementById('body');
 
-        // // Grab the h5 element directly above the CD Form div tag
+        // Grab the h5 element directly above the CD Form div tag
 
         const h5 = document.getElementsByTagName('h5')[0];
 
@@ -56,16 +56,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         iframe.setAttribute('width', '0');
         iframe.setAttribute('style', 'display:none;visibility:hidden');
 
-        // // Add the text content for the first ClickDimensions Widget Script tag
+        // Add the text content for the first ClickDimensions Widget Script tag
 
         cdFormWidgetScript1.textContent = `var loc = "https://analytics-eu.clickdimensions.com/clickdimensionscom-ajbfv/pages/";var cdSurveyCdn = "https://cdn-eu.clickdimensions.com/web/newformeditor/";`;
 
-        // // Add the type and src attributes to the second ClickDimensions WIdget Script tag
+        // Add the type and src attributes to the second ClickDimensions WIdget Script tag
 
         cdFormWidgetScript2.setAttribute('type', 'text/javascript');
         cdFormWidgetScript2.setAttribute('src', 'https://cdn-eu.clickdimensions.com/web/newformeditor/CDWidget.js');
 
-        // // Set the type attribute to text/javascript for the first ClickDimensions Widget Script tag
+        // Set the type attribute to text/javascript for the first ClickDimensions Widget Script tag
 
         cdFormWidgetScript1.setAttribute('type', 'text/javascript');
 
@@ -81,7 +81,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         body.insertBefore(gtmBodyScript, body.firstChild);
 
-        // // Append the CD Widget scripts above the CD div tag
+        // Append the CD Widget scripts above the CD div tag
 
         h5.after(cdFormWidgetScript1);
         cdFormWidgetScript1.after(cdFormWidgetScript2);
