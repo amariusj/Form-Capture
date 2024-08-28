@@ -4,11 +4,12 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 // Different forms:
 
-import USForm from './components/forms/USForm';
-import EUForm from './components/forms/EUForm';
-import AUForm from './components/forms/AUForm';
-import CAForm from './components/forms/CAForm';
-import CustomerForms from './components/forms/CustomerForms';
+import USForm from './components/pages/USForm';
+import EUForm from './components/pages/EUForm';
+import AUForm from './components/pages/AUForm';
+import CAForm from './components/pages/CAForm';
+import NotFound from './components/pages/NotFound';
+import GtmTest from './components/pages/GtmTest';
  
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
           <Route path="/euform" component={EUForm} />
           <Route path="/auform" component={AUForm} />
           <Route path="/caform" component={CAForm} />
-          <Route path="/customerforms" component={CustomerForms} />
+          <Route path="/gtm-test" component={GtmTest} />
+
+          <Route path="*" component={NotFound} />
         </Switch>
       </div>
     </Router>

@@ -15,3 +15,14 @@ code {
 .form-capture {
   margin: 5rem;
 }
+
+
+#not-found {
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+
+}

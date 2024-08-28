@@ -15,11 +15,11 @@ const Header = () => {
                 <Navbar.Collapse id="menu">
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to="/">Home</Nav.Link>
-                        <Nav.Link as={Link} to="/customerforms">Customer Forms</Nav.Link>
                         <Nav.Link as={Link} to="/usform">US Form</Nav.Link>
                         <Nav.Link as={Link} to="/euform">EU Form</Nav.Link>
                         <Nav.Link as={Link} to="/auform">AU Form</Nav.Link>
                         <Nav.Link as={Link} to="/caform">CA Form</Nav.Link>
+                        <Nav.Link as={Link} to="/gtm-test">GTM Test</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
