@@ -11,6 +11,7 @@ import CAForm from './components/pages/CAForm';
 import NotFound from './components/pages/NotFound';
 import GtmTest from './components/pages/GtmTest';
 import NonGtmTest from './components/pages/NonGtmTest';
+import Widget from './components/pages/Widget'
  
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/caform" component={CAForm} />
           <Route path="/gtm-test" component={GtmTest} />
           <Route path="/non-gtm-test" component={NonGtmTest} />
+          <Route path="/widget" component={Widget} />
 
           <Route path="*" component={NotFound} />
         </Switch>

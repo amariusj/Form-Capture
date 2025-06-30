@@ -21,6 +21,7 @@ const Header = () => {
                         <Nav.Link as={Link} to="/caform">CA Form</Nav.Link>
                         <Nav.Link as={Link} to="/gtm-test">GTM Test</Nav.Link>
                         <Nav.Link as={Link} to="/non-gtm-test">Non-GTM Test</Nav.Link>
+                        <Nav.Link as={Link} to="/widget">Widget Test</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
